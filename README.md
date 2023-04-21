@@ -22,10 +22,10 @@ Speriamo che questo progetto ti sia utile per trascrivere i tuoi file audio in f
 
 Al momento, il progetto è in fase di sviluppo e potrebbero essere apportate alcune modifiche e aggiornamenti in futuro. Alcune possibili migliorie includono:
 
-- Aggiunta di supporto per altri formati audio oltre a .mp3.
-- Possibilità di trascrivere più file audio contemporaneamente.
-- Miglioramento della precisione della trascrizione attraverso l'utilizzo di tecniche di elaborazione del linguaggio naturale.
-- Implementazione di un'interfaccia utente grafica per semplificare l'uso del programma.
+- Aggiunta di supporto per altri formati audio oltre a .mp3. :x:
+- Possibilità di trascrivere più file audio contemporaneamente. :x:
+- Miglioramento della precisione della trascrizione attraverso l'utilizzo di tecniche di elaborazione del linguaggio naturale. :x:
+- Implementazione di un'interfaccia utente grafica per semplificare l'uso del programma. :x:
 
 Se hai suggerimenti o idee per migliorare il progetto, non esitare a contattarci o a contribuire al progetto attraverso GitHub. 
 
@@ -59,6 +59,6 @@ Currently, the project is under development and there may be some modifications 
 - Adding support for other audio formats besides .mp3. :x:
 - Allowing for transcription of multiple audio files simultaneously. :x:
 - Improving transcription accuracy through the use of natural language processing techniques. :x:
-- Implementing a graphical user interface to simplify program usage. :heavy_multiplication_x:
+- Implementing a graphical user interface to simplify program usage. :x:
 
 If you have any suggestions or ideas for improving the project, feel free to contact us or contribute to the project through GitHub.
