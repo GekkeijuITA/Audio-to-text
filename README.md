@@ -18,6 +18,17 @@ Questo progetto utilizza le librerie SpeechRecognition e FFmpeg, che sono state 
 
 Speriamo che questo progetto ti sia utile per trascrivere i tuoi file audio in formato di testo. Tieni presente che il servizio di riconoscimento vocale di Google potrebbe non essere sempre affidabile, quindi ti consigliamo di verificare sempre la trascrizione risultante.
 
+## Futuro del progetto
+
+Al momento, il progetto è in fase di sviluppo e potrebbero essere apportate alcune modifiche e aggiornamenti in futuro. Alcune possibili migliorie includono:
+
+- Aggiunta di supporto per altri formati audio oltre a .mp3.
+- Possibilità di trascrivere più file audio contemporaneamente.
+- Miglioramento della precisione della trascrizione attraverso l'utilizzo di tecniche di elaborazione del linguaggio naturale.
+- Implementazione di un'interfaccia utente grafica per semplificare l'uso del programma.
+
+Se hai suggerimenti o idee per migliorare il progetto, non esitare a contattarci o a contribuire al progetto attraverso GitHub. 
+
 ***
 
 # Audio-to-Text :uk:
@@ -41,3 +52,13 @@ To use the project, follow these steps:
 This project uses the SpeechRecognition and FFmpeg libraries, which were developed by third parties. We thank the authors of these libraries for their work.
 
 We hope this project is useful for transcribing your audio files to text. Please note that Google's speech recognition service may not always be reliable, so we recommend verifying the resulting transcription.
+## Future of the Project
+
+Currently, the project is under development and there may be some modifications and updates in the future. Some possible improvements include:
+
+- Adding support for other audio formats besides .mp3.
+- Allowing for transcription of multiple audio files simultaneously.
+- Improving transcription accuracy through the use of natural language processing techniques.
+- Implementing a graphical user interface to simplify program usage.
+
+If you have any suggestions or ideas for improving the project, feel free to contact us or contribute to the project through GitHub.
