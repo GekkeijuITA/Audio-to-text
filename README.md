@@ -1,9 +1,11 @@
 # Audio-to-Text :it:
 
 Questo progetto ti permette di trascrivere file audio in formato .mp3 (o altri formati) su un file di testo. Il progetto utilizza il sistema di riconoscimento vocale di Google, ma tieni presente che potrebbe non essere sempre affidabile.
+
 ## Descrizione
 
 Il progetto utilizza la libreria SpeechRecognition di Python per accedere al servizio di riconoscimento vocale di Google e trasformare l'audio in testo. Il file audio deve essere convertito in formato WAV utilizzando la libreria FFmpeg prima di poter essere trascritto. Attualmente, il progetto trascrive solo un file audio alla volta e richiede che il file audio sia rinominato in "audio.mp3".
+
 ## Utilizzo
 
 Per utilizzare il progetto, segui questi passaggi:
@@ -28,9 +30,9 @@ Al momento, il progetto è in fase di sviluppo e potrebbero essere apportate alc
 - Miglioramento della precisione della trascrizione attraverso l'utilizzo di tecniche di elaborazione del linguaggio naturale. :x:
 - Implementazione di un'interfaccia utente grafica per semplificare l'uso del programma. :x:
 
-Se hai suggerimenti o idee per migliorare il progetto, non esitare a contattarci o a contribuire al progetto attraverso GitHub. 
+Se hai suggerimenti o idee per migliorare il progetto, non esitare a contattarci o a contribuire al progetto attraverso GitHub.
 
-***
+---
 
 # Audio-to-Text :uk:
 
@@ -54,6 +56,7 @@ This project uses the SpeechRecognition and FFmpeg libraries, which were develop
 
 We hope this project is useful for transcribing your audio files to text.  
 :warning: **Please note that Google's speech recognition service may not always be reliable, so we recommend verifying the resulting transcription.** :warning:
+
 ## Future of the Project
 
 Currently, the project is under development and there may be some modifications and updates in the future. Some possible improvements include:
