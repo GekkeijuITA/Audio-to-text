@@ -1,4 +1,4 @@
-# Audio-to-Text ::it::
+# Audio-to-Text :it:
 
 Questo progetto ti permette di trascrivere file audio in formato .mp3 (o altri formati) su un file di testo. Il progetto utilizza il sistema di riconoscimento vocale di Google, ma tieni presente che potrebbe non essere sempre affidabile.
 Descrizione
