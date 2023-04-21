@@ -16,7 +16,8 @@ Per utilizzare il progetto, segui questi passaggi:
 
 Questo progetto utilizza le librerie SpeechRecognition e FFmpeg, che sono state sviluppate da terze parti. Ringraziamo gli autori di queste librerie per il loro lavoro.
 
-Speriamo che questo progetto ti sia utile per trascrivere i tuoi file audio in formato di testo. Tieni presente che il servizio di riconoscimento vocale di Google potrebbe non essere sempre affidabile, quindi ti consigliamo di verificare sempre la trascrizione risultante.
+Speriamo che questo progetto ti sia utile per trascrivere i tuoi file audio in formato di testo. 
+:warning: **Tieni presente che il servizio di riconoscimento vocale di Google potrebbe non essere sempre affidabile, quindi ti consigliamo di verificare sempre la trascrizione risultante.** :warning:
 
 ## Futuro del progetto
 
