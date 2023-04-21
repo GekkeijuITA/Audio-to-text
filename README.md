@@ -20,7 +20,7 @@ Speriamo che questo progetto ti sia utile per trascrivere i tuoi file audio in f
 
 ***
 
-# Audio-to-Text :en:
+# Audio-to-Text :uk:
 
 This is a project for transcribing audio files in .mp3 (or other formats) to a text file. The project uses Google's speech recognition system, but please note that it may not always be reliable.
 
