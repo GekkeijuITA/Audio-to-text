@@ -8,9 +8,9 @@ Il progetto utilizza la libreria SpeechRecognition di Python per accedere al ser
 
 Per utilizzare il progetto, segui questi passaggi:
 
-1.Assicurati di avere Python e le librerie SpeechRecognition e FFmpeg installate sul tuo computer.
-2.Scarica il file audio che vuoi trascrivere e rinominalo in "audio.mp3".
-3.Esegui il file Python "audio_to_text.py" per convertire il file audio in formato WAV e trascriverlo in un file di testo chiamato "transcription.txt".
+1. Assicurati di avere Python e le librerie SpeechRecognition e FFmpeg installate sul tuo computer.
+2. Scarica il file audio che vuoi trascrivere e rinominalo in "audio.mp3".
+3. Esegui il file Python "audio_to_text.py" per convertire il file audio in formato WAV e trascriverlo in un file di testo chiamato "transcription.txt".
 
 # Ringraziamenti
 
