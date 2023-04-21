@@ -56,8 +56,8 @@ We hope this project is useful for transcribing your audio files to text. Please
 
 Currently, the project is under development and there may be some modifications and updates in the future. Some possible improvements include:
 
-- Adding support for other audio formats besides .mp3.
-- Allowing for transcription of multiple audio files simultaneously.
+- Adding support for other audio formats besides .mp3. :white_check_mark:
+- Allowing for transcription of multiple audio files simultaneously. :x:
 - Improving transcription accuracy through the use of natural language processing techniques.
 - Implementing a graphical user interface to simplify program usage.
 
