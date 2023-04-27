@@ -43,15 +43,21 @@ This is a project for transcribing audio files in .mp3 (or other formats) to a t
 
 ## Description
 
-The project uses the SpeechRecognition library in Python to access Google's speech recognition service and convert audio to text. The audio file must be converted to WAV format using the FFmpeg library before it can be transcribed. Currently, the project transcribes only one audio file at a time and requires that the audio file be renamed to "audio.mp3".
+The project uses the SpeechRecognition library in Python to access Google's speech recognition service and convert audio to text. The audio file must be converted to WAV format using the FFmpeg library before it can be transcribed. Currently, the project transcribes only one audio file at a time.
 
 ## Usage
 
 To use the project, follow these steps:
 
-1. Make sure you have Python and the SpeechRecognition and FFmpeg libraries installed on your computer.
-2. Download the audio file you want to transcribe and rename it to "audio.mp3".
-3. Run the "audio_to_text.py" Python file to convert the audio file to WAV format and transcribe it to a text file named "transcription.txt".
+1. Download the project from the GitHub repository.
+2. Make sure you have Python and the SpeechRecognition and FFmpeg libraries installed on your computer.
+3. Open the terminal or command prompt and navigate to the project directory.
+4. Run the command pip install -r requirements.txt to install the project dependencies.
+5. Download the audio file you want to transcribe to the project directory.
+6. Run the command python audio_to_text.py <audio_file_name> where <audio_file_name> is the name of the audio file you want to transcribe.
+7. The transcribed file will be saved to the same directory as the audio file with the same name as the audio file and the extension ".txt".
+
+The generated text file will be located in the same directory as the audio file.
 
 ## Acknowledgments
 
@@ -62,8 +68,8 @@ We hope this project is useful for transcribing your audio files to text. Please
 
 Currently, the project is under development and there may be some modifications and updates in the future. Some possible improvements include:
 
-- Adding support for other audio formats besides .mp3. :x:
-- Allowing for transcription of multiple audio files simultaneously. :x:
+- Adding support for other audio formats besides .mp3. :heavy_check_mark:
+- Allowing for transcription of multiple audio files simultaneously. :heavy_check_mark:
 - Improving transcription accuracy through the use of natural language processing techniques. :x:
 - Implementing a graphical user interface to simplify program usage. :x:
 
