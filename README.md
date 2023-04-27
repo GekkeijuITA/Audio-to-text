@@ -64,7 +64,8 @@ The generated text file will be located in the same directory as the audio file.
 
 This project uses the SpeechRecognition and FFmpeg libraries, which were developed by third parties. We thank the authors of these libraries for their work.
 
-We hope this project is useful for transcribing your audio files to text. Please note that Google's speech recognition service may not always be reliable, so we recommend verifying the resulting transcription.
+We hope this project is useful for transcribing your audio files to text. 
+:warning: **Please note that Google's speech recognition service may not always be reliable, so we recommend verifying the resulting transcription.** :warning:
 ## Future of the Project
 
 Currently, the project is under development and there may be some modifications and updates in the future. Some possible improvements include:
