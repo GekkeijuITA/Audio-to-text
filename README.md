@@ -3,14 +3,20 @@
 Questo progetto ti permette di trascrivere file audio in formato .mp3 (o altri formati) su un file di testo. Il progetto utilizza il sistema di riconoscimento vocale di Google, ma tieni presente che potrebbe non essere sempre affidabile.
 ## Descrizione
 
-Il progetto utilizza la libreria SpeechRecognition di Python per accedere al servizio di riconoscimento vocale di Google e trasformare l'audio in testo. Il file audio deve essere convertito in formato WAV utilizzando la libreria FFmpeg prima di poter essere trascritto. Attualmente, il progetto trascrive solo un file audio alla volta e richiede che il file audio sia rinominato in "audio.mp3".
+Il progetto utilizza la libreria SpeechRecognition di Python per accedere al servizio di riconoscimento vocale di Google e trasformare l'audio in testo. Il file audio deve essere convertito in formato WAV utilizzando la libreria FFmpeg prima di poter essere trascritto. Attualmente, il progetto trascrive solo un file audio alla volta.
 ## Utilizzo
 
 Per utilizzare il progetto, segui questi passaggi:
 
-1. Assicurati di avere Python e le librerie SpeechRecognition e FFmpeg installate sul tuo computer.
-2. Scarica il file audio che vuoi trascrivere e rinominalo in "audio.mp3".
-3. Esegui il file Python "audio_to_text.py" per convertire il file audio in formato WAV e trascriverlo in un file di testo chiamato "transcription.txt".
+1. Scarica il progetto dal repository GitHub.
+2. Assicurati di avere Python e le librerie SpeechRecognition e FFmpeg installate sul tuo computer.
+3. Apri il terminale o il prompt dei comandi e vai nella directory del progetto.
+4. Esegui il comando `pip install -r requirements.txt` per installare le dipendenze del progetto.
+5. Scarica il file audio che vuoi trascrivere nella directory del progetto.
+6. Esegui il comando `python audio_to_text.py <nome_file_audio>` dove `<nome_file_audio>` è il nome del file audio che vuoi trascrivere.
+7. Il file trascritto verrà salvato nella stessa directory del file audio con lo stesso nome del file audio e l'estensione ".txt".
+
+Il file di testo generato si troverà nella stessa directory del file audio.
 
 ## Ringraziamenti
 
@@ -22,8 +28,8 @@ Speriamo che questo progetto ti sia utile per trascrivere i tuoi file audio in f
 
 Al momento, il progetto è in fase di sviluppo e potrebbero essere apportate alcune modifiche e aggiornamenti in futuro. Alcune possibili migliorie includono:
 
-- Aggiunta di supporto per altri formati audio oltre a .mp3. :x:
-- Possibilità di trascrivere più file audio contemporaneamente. :x:
+- Aggiunta di supporto per altri formati audio oltre a .mp3. :heavy_check_mark:
+- Possibilità di trascrivere più file audio contemporaneamente. :heavy_check_mark:
 - Miglioramento della precisione della trascrizione attraverso l'utilizzo di tecniche di elaborazione del linguaggio naturale. :x:
 - Implementazione di un'interfaccia utente grafica per semplificare l'uso del programma. :x:
 
