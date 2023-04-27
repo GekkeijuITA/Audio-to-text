@@ -52,9 +52,9 @@ To use the project, follow these steps:
 1. Download the project from the GitHub repository.
 2. Make sure you have Python and the SpeechRecognition and FFmpeg libraries installed on your computer.
 3. Open the terminal or command prompt and navigate to the project directory.
-4. Run the command pip install -r requirements.txt to install the project dependencies.
+4. Run the command `pip install -r requirements.txt` to install the project dependencies.
 5. Download the audio file you want to transcribe to the project directory.
-6. Run the command python audio_to_text.py <audio_file_name> where <audio_file_name> is the name of the audio file you want to transcribe.
+6. Run the command `python audio_to_text.py <audio_file_name>` where `<audio_file_name>` is the name of the audio file you want to transcribe.
 7. The transcribed file will be saved to the same directory as the audio file with the same name as the audio file and the extension ".txt".
 
 The generated text file will be located in the same directory as the audio file.
