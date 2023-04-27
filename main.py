@@ -5,6 +5,7 @@ import logging
 
 logging.basicConfig(level=logging.WARNING)
 audio_format = ['.mp3', '.wav', '.m4a']
+folder = '.convertedFile'
 
 
 def get_file_name(audio_file):
@@ -13,10 +14,10 @@ def get_file_name(audio_file):
 
 
 def convert_to_wav(audio_file, title):
-    if os.path.exists(title + 'wav'):
-        os.remove(title + 'wav')
+    if os.path.exists(folder + '/' + title + '.wav'):
+        os.remove(folder + '/' + title + '.wav')
     subprocess.call(['ffmpeg', '-i', audio_file, '-vn', '-acodec',
-                    'pcm_s16le', '-ar', '44100', '-ac', '2', title + 'wav'])
+                    'pcm_s16le', '-ar', '44100', '-ac', '2', folder + '/' + title + '.wav'])
 
 
 def transcribe_audio(audio_file, language):
@@ -34,12 +35,17 @@ def transcribe_audio(audio_file, language):
         print('Sorry, my speech service is down {0}'.format(e))
         return ''
 
+def delete_files_in_folder(folder):
+    for file in os.listdir(folder):
+        if file.endswith(tuple(audio_format)):
+            os.remove(os.path.join(folder, file))
 
 def audio_to_text(audio_file):
     title = get_file_name(audio_file)
     convert_to_wav(audio_file, title)
     with open(title + ".txt", 'w', encoding='utf-8') as file:
-        file.write(transcribe_audio(audio_file, language))
+        file.write(transcribe_audio(folder + '/' + title + '.wav', language))
+    delete_files_in_folder(folder)
 
 
 language = 'it-IT'
