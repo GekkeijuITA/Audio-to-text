@@ -30,7 +30,7 @@ Speriamo che questo progetto ti sia utile per trascrivere i tuoi file audio in f
 Al momento, il progetto è in fase di sviluppo e potrebbero essere apportate alcune modifiche e aggiornamenti in futuro. Alcune possibili migliorie includono:
 
 - Aggiunta di supporto per altri formati audio oltre a .mp3. :white_check_mark:
-- Possibilità di trascrivere più file audio contemporaneamente. :heavy_check_mark:
+- Possibilità di trascrivere più file audio contemporaneamente. :white_check_mark:
 - Miglioramento della precisione della trascrizione attraverso l'utilizzo di tecniche di elaborazione del linguaggio naturale. :x:
 - Implementazione di un'interfaccia utente grafica per semplificare l'uso del programma. :x:
 
@@ -70,8 +70,8 @@ We hope this project is useful for transcribing your audio files to text.
 
 Currently, the project is under development and there may be some modifications and updates in the future. Some possible improvements include:
 
-- Adding support for other audio formats besides .mp3. :heavy_check_mark:
-- Allowing for transcription of multiple audio files simultaneously. :heavy_check_mark:
+- Adding support for other audio formats besides .mp3. :white_check_mark:
+- Allowing for transcription of multiple audio files simultaneously. :white_check_mark:
 - Improving transcription accuracy through the use of natural language processing techniques. :x:
 - Implementing a graphical user interface to simplify program usage. :x:
 
