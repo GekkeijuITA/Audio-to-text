@@ -29,7 +29,7 @@ Speriamo che questo progetto ti sia utile per trascrivere i tuoi file audio in f
 
 Al momento, il progetto è in fase di sviluppo e potrebbero essere apportate alcune modifiche e aggiornamenti in futuro. Alcune possibili migliorie includono:
 
-- Aggiunta di supporto per altri formati audio oltre a .mp3. :heavy_check_mark:
+- Aggiunta di supporto per altri formati audio oltre a .mp3. :white_check_mark:
 - Possibilità di trascrivere più file audio contemporaneamente. :heavy_check_mark:
 - Miglioramento della precisione della trascrizione attraverso l'utilizzo di tecniche di elaborazione del linguaggio naturale. :x:
 - Implementazione di un'interfaccia utente grafica per semplificare l'uso del programma. :x:
